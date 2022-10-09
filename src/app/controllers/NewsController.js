@@ -9,3 +9,5 @@ class NewsController {
 module.exports = new NewsController;
 
 //test on ubuntu 
+
+//ubuntu 20.04 
