@@ -7,3 +7,5 @@ class NewsController {
 }
 
 module.exports = new NewsController;
+
+//test on ubuntu 
