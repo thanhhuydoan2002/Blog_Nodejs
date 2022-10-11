@@ -1,16 +1,15 @@
-const { route } = require("../../routes/news");
+const { route } = require('../../routes/news');
 
 class NewsController {
-
     //[GET] /news
-    index(req,res){
-        res.render('news')
+    index(req, res) {
+        res.render('news');
     }
 
     //[GET] /news/:slug
-    show(req,res){
+    show(req, res) {
         res.send('NEWS DETAILS !!');
     }
 }
 
-module.exports = new NewsController;
+module.exports = new NewsController();
