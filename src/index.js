@@ -18,7 +18,7 @@ app.use(express.json());
 // app.use(morgan('combined'));
 
 //Template engine
-app.engine(
+          app.engine(
     'hbs',
     engine({
         extname: '.hbs',
@@ -32,7 +32,5 @@ route(app);
 
             app.listen(port, () => {
 
-
-              
     console.log(`Example app listening on port http://localhost:${port}`);
 });
