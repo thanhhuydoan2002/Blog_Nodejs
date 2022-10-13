@@ -23,21 +23,17 @@
     "url": "https://github.com/thanhhuydoan2002/Blog_Nodejs/issues"
   },
   "homepage": "https://github.com/thanhhuydoan2002/Blog_Nodejs#readme",
-
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
-
   "husky": {
     "hooks": {
-        "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
-
   "dependencies": {
     "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "husky": "^4.2.5"
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
     "lint-staged": "^13.0.3",
